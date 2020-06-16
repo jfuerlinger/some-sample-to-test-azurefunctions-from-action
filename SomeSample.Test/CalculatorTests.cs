@@ -17,5 +17,17 @@ namespace SomeSample.Test
       // Assert
       Assert.AreEqual(8, actual);
     }
+
+    [TestMethod]
+    public void Add_CallWith0And0_ShouldReturn0()
+    {
+      // Arrange
+
+      // Act
+      int actual = Calculator.Add(0, 0);
+
+      // Assert
+      Assert.AreEqual(0, actual);
+    }
   }
 }

@@ -1,0 +1,1 @@
+# some-sample-to-test-azurefunctions-from-action

@@ -28,3 +28,4 @@ jobs:
       uses: joelwmale/webhook-action@master
       env:
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        data: "{'actor': '$GITHUB_ACTOR', 'repository': '$GITHUB_REPOSITORY', 'event': '$GITHUB_EVENT_NAME'}"
